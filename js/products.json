@@ -1,0 +1,126 @@
+[
+	{
+		"id" : 1,
+		"image": "products/01.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "10,99"
+	},
+	{
+		"id" : 2,
+		"image": "products/02.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "7,99"
+	},
+	{	"id" : 3,
+		"image": "products/03.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "12,99"
+	},
+	{	"id" : 4,
+		"image": "products/04.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "14,99"
+	},
+	{
+		"id" : 5,
+		"image": "products/05.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "18,99"
+	},
+	{
+		"id" : 6,
+		"image": "products/06.jpg",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "20,99"
+	},
+    {
+		"id" : 7,
+        "image": "products/07.png",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "20,99"   
+    },
+    {
+		"id" : 8,
+        "image": "products/07.png",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "20,99"   
+    },
+    {
+		"id" : 9,
+        "image": "products/08.png",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "20,99"   
+    },
+    {
+		"id" : 10,
+        "image": "products/09.png",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "20,99"   
+    },
+    {
+		"id" : 11,
+        "image": "products/10.png",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "20,99"   
+    },
+    {
+		"id" : 12,
+        "image": "products/11.png",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "20,99"   
+    },
+    {
+		"id" : 13,
+        "image": "products/12.png",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "20,99"   
+    },
+    {
+		"id" : 14,
+        "image": "products/14.png",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "20,99"   
+    },
+    {
+		"id" : 15,
+        "image": "products/15.png",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "20,99"   
+    },
+    {
+		"id" : 16,
+        "image": "products/16.png",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "20,99"   
+    },
+    {
+		"id" : 17,
+        "image": "products/17.png",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "20,99"   
+    },
+    {
+		"id" : 18,
+        "image": "products/18.png",
+		"title": "Product title",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "20,99"   
+    }
+]
