@@ -16,9 +16,7 @@ function recupere(idTemp) {
           var popupConfirmation = function popupConfirmation() {
             if (window.confirm("".concat(element.title, " a ete bien Ajouter dans votre Panier    \n                          Appuyer sur OK pour consulter le panier ou ANNULER pour rester a l'accueil\n                        "))) {
               window.location.href = "panier.html";
-            } else {
-              window.location.href = "index.html";
-            }
+            } else {}
           }; //    ---Stockage dans le LocalStorage
 
 

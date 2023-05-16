@@ -130,3 +130,19 @@
 		text-align: center; 
 	}
 }
+
+
+.vide{
+	margin-top: 50px;
+	font-size: 30px;
+	padding-left: 30px;
+}
+.product-name-vide{
+	margin-bottom: 10px;
+	display: flex;
+	padding-left: 30px;
+}
+
+.temp{
+	margin-bottom: 60px;
+}

@@ -29,7 +29,7 @@ function recupere(idTemp)
                         `)) {
                             window.location.href = "panier.html";
                         }else{
-                            window.location.href = "index.html";
+                           
                         }
                     }
                        
