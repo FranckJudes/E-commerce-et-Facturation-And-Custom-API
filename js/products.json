@@ -2,125 +2,125 @@
 	{
 		"id" : 1,
 		"image": "products/01.jpg",
-		"title": "Product title",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-		"price": "10,99"
+		"title": "Breitling",
+		"description": "Une Montre d'Origine",
+		"price": "17"
 	},
 	{
 		"id" : 2,
 		"image": "products/02.jpg",
-		"title": "Product title",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-		"price": "7,99"
+		"title": "Une Rolex",
+		"description": "Meilleur montre du moment",
+		"price": "12"
 	},
 	{	"id" : 3,
 		"image": "products/03.jpg",
-		"title": "Product title",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-		"price": "12,99"
+		"title": "Jaeger-LeCoultre.",
+		"description": "Meilleur montre du moment",
+		"price": "10"
 	},
 	{	"id" : 4,
 		"image": "products/04.jpg",
-		"title": "Product title",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-		"price": "14,99"
+		"title": "Omega",
+		"description": "Meilleur montre du moment",
+		"price": "19"
 	},
 	{
 		"id" : 5,
 		"image": "products/05.jpg",
-		"title": "Product title",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-		"price": "18,99"
+		"title": "Audemars Piguet.",
+		"description": "Meilleur montre du moment",
+		"price": "17"
 	},
 	{
 		"id" : 6,
 		"image": "products/06.jpg",
-		"title": "Product title",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-		"price": "20,99"
+		"title": "Patek Philippe.",
+		"description": "Meilleur montre du moment",
+		"price": "19"
 	},
     {
 		"id" : 7,
         "image": "products/07.png",
-		"title": "Product title",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-		"price": "20,99"   
+		"title": "MACBOOK",
+		"description": "Core i5 5eme Generation 4CPU * 2,5GHz",
+		"price": "20"   
     },
     {
 		"id" : 8,
-        "image": "products/07.png",
-		"title": "Product title",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-		"price": "20,99"   
+        "image": "products/08.png",
+		"title": "Casque Araimo",
+		"description": "Casque pour des musisque",
+		"price": "20"   
     },
     {
 		"id" : 9,
-        "image": "products/08.png",
-		"title": "Product title",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-		"price": "20,99"   
+        "image": "products/09.png",
+		"title": "MACBOOK",
+		"description": "Core i7 6eme Generation 4CPU * 2,5GHz",
+		"price": "20"   
     },
     {
 		"id" : 10,
-        "image": "products/09.png",
-		"title": "Product title",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-		"price": "20,99"   
+        "image": "products/10.png",
+		"title": "Tablette Modele Android",
+		"description": "Tablette pour des Apprentissages",
+		"price": "20"   
     },
     {
 		"id" : 11,
-        "image": "products/10.png",
-		"title": "Product title",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-		"price": "20,99"   
+        "image": "products/11.png",
+		"title": "Casque Pour Didier",
+		"description": "Casque pour les animations Adapter au PC",
+		"price": "24"   
     },
     {
 		"id" : 12,
-        "image": "products/11.png",
-		"title": "Product title",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-		"price": "20,99"   
+        "image": "products/12.png",
+		"title": "MSI Gameur",
+		"description": "PC Gameur i7 8Gen NVIDIA Carte Graphique",
+		"price": "200"   
     },
     {
 		"id" : 13,
-        "image": "products/12.png",
-		"title": "Product title",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-		"price": "20,99"   
+        "image": "products/13.png",
+		"title": "Samsung S7",
+		"description": "Telephone samsung 2017",
+		"price": "19"   
     },
     {
 		"id" : 14,
         "image": "products/14.png",
-		"title": "Product title",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-		"price": "20,99"   
+		"title": "ASUS HP PRO",
+		"description": "Asus adapter a la programmation",
+		"price": "50"   
     },
     {
 		"id" : 15,
         "image": "products/15.png",
-		"title": "Product title",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-		"price": "20,99"   
+		"title": "Camera Numerique",
+		"description": "Pour Vos photos en Famille",
+		"price": "70"   
     },
     {
 		"id" : 16,
         "image": "products/16.png",
-		"title": "Product title",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-		"price": "20,99"   
+		"title": "ASUS HP PRO",
+		"description": "Asus adapter a la programmation",
+		"price": "45"  
     },
     {
 		"id" : 17,
         "image": "products/17.png",
-		"title": "Product title",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-		"price": "20,99"   
+		"title": " Camescope",
+		"description": "Explorer nos nouveaux produits",
+		"price": "60"   
     },
     {
 		"id" : 18,
         "image": "products/18.png",
-		"title": "Product title",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-		"price": "20,99"   
+		"title": "Casque de Dernier Generation",
+		"description": "Ecouter les meilleurs musiques avec les nouveautes",
+		"price": "70"   
     }
 ]

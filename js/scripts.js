@@ -27,10 +27,10 @@ http.onload = function(){
 					<p class="title">${item.title}</p>
 					<p class="description">${item.description}</p>
 					<p class="price">
-						<span>${item.price}$</span>
+						<span> ${item.price}</span>
 						<span>&euro;</span>
 					</p>
-					<p class="cart" id="card" onclick="recupere(${item.id})" value="${item.id}">Add to cart <i class="fa-solid fa-plus"></i></p>
+					<p class="cart" id="card" onclick="recupere(${item.id})" value="${item.id}">Ajouter au Panier <i class="fa-solid fa-plus"></i></p>
 				</div>
 		
 			`;

@@ -2,14 +2,14 @@
 
 let produitEnregistrerProduit  = JSON.parse(localStorage.getItem("produit"))
 
-console.log(produitEnregistrerProduit);
+// console.log(produitEnregistrerProduit);
 
 
 // ---------------------------- Selectionner la Div en question
 
 let position  = document.querySelector(".items")
 
-console.log(position);
+// console.log(position);
 
 
 /// Tester si le panier est vide
@@ -74,7 +74,7 @@ else{
                                     </div>
                                     <div class="col-md-3 quantity">
                                         <label for="quantity">Quantity:</label>
-                                        <input id="quantity" type="number" value ="1" class="form-control quantity-input">
+                                        <input id="quantity" type="number" min="0" value="1" class="form-control quantity-input">
                                     </div>
                                     <div class="col-md-3 price">
                                         <span>${produitEnregistrerProduit[index].price}$</span>
@@ -97,14 +97,14 @@ else{
     if (index === produitEnregistrerProduit.length)
     {
        position.innerHTML = StrutureProduitPanier;
-   }
+    }
 }
 
 // --------------- Supprimer un Produit particulier du pannier
 
 let buttonDelete =  document.querySelectorAll(".bg-danger");
 
-console.log(buttonDelete);
+// console.log(buttonDelete);
 
 for (let index = 0; index < buttonDelete.length; index++) {
     
@@ -132,4 +132,106 @@ for (let index = 0; index < buttonDelete.length; index++) {
 
     
 }
+
+
+// ------------------------------------- Ecrire la Function pour Vider le Panier -------------------------
+const buttonViderPanier  = document.querySelector(".viderpanier")
+
+// console.log(buttonViderPanier);
+
+buttonViderPanier.addEventListener("click" ,(e)=>{
+    e.preventDefault();
+ 
+
+    if (produitEnregistrerProduit === null || produitEnregistrerProduit == 0)
+    {
+        alert("Le Panier est deja vide");
+
+    }else
+    {
+        // RemoveItem pour Vider le panier
+        localStorage.removeItem("produit");
+
+        alert("Le Panier a ete vider avec success");    
+            // Rechargement de la Page
+
+        window.location.href = "panier.html"
+
+
+    }
     
+
+});
+
+
+// ------------------------------------------------------- calcule du prix total  ---------------------
+
+let prixTotalCalcul = 0 ;
+const input =  document.querySelectorAll("#quantity");
+
+
+for (let index = 0; index < produitEnregistrerProduit.length; index++) 
+{
+  
+
+        prixTotalCalcul = parseFloat(prixTotalCalcul) + parseFloat(produitEnregistrerProduit[index].price) * parseFloat(input[index].value);
+       
+}
+
+// Affichage du Subtotal sans TVA
+let subtotal = document.querySelector(".subtotal");
+
+
+
+
+
+function afficheTotal(){
+    let totaux = document.querySelector(".total");
+    totaux = 0;
+    subtotal = 0 ;
+    if (produitEnregistrerProduit === null || produitEnregistrerProduit == 0)
+    {
+            alert("le panier est vide");
+    }else
+    {   
+
+            for (let index = 0; index < produitEnregistrerProduit.length; index++) 
+            {
+            
+
+                    prixTotalCalcul = parseFloat(prixTotalCalcul) + parseFloat(produitEnregistrerProduit[index].price) * parseFloat(input[index].value);
+                
+            }
+            subtotal.innerHTML  = prixTotalCalcul+'&euro;';
+            let totaux = document.querySelector(".total");
+            let temp = parseFloat(4.5 + prixTotalCalcul);
+            totaux.innerHTML =temp + '&euro;';
+             localStorage.setItem("prix_total",JSON.stringify(temp))
+
+    }
+    
+}
+
+
+
+
+
+ function stocker()
+{
+    let elements= [];
+    let LesInputs =  document.querySelectorAll("input");
+
+
+
+    for (let i = 0; i < LesInputs.length; i++) {
+         elements.push(LesInputs[i].value);
+        //  localStorage.setItem("QTE",JSON.stringify(elements))
+        console.log(LesInputs[i].value);
+    }
+
+    localStorage.setItem("quantite",JSON.stringify(elements))
+    window.location.href = "facture.html";
+
+
+    
+}

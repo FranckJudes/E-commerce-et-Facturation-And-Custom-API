@@ -18,7 +18,7 @@ http.onload = function () {
     try {
       for (var _iterator = products[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
         var item = _step.value;
-        output += "\n\t\t\t\n\t\t\t\t<div class=\"product\">\n\t\t\t\t\t<img src=\"".concat(item.image, "\" alt=\"").concat(item.image, "\">\n\t\t\t\t\t<p class=\"title\">").concat(item.title, "</p>\n\t\t\t\t\t<p class=\"description\">").concat(item.description, "</p>\n\t\t\t\t\t<p class=\"price\">\n\t\t\t\t\t\t<span>").concat(item.price, "</span>\n\t\t\t\t\t\t<span>&euro;</span>\n\t\t\t\t\t</p>\n\t\t\t\t\t<p class=\"cart\" id=\"card\" onclick=\"recupere(").concat(item.id, ")\" value=\"").concat(item.id, "\">Add to cart <i class=\"fa-solid fa-plus\"></i></p>\n\t\t\t\t</div>\n\t\t\n\t\t\t");
+        output += "\n\t\t\t\n\t\t\t\t<div class=\"product\">\n\t\t\t\t\t<img src=\"".concat(item.image, "\" alt=\"").concat(item.image, "\">\n\t\t\t\t\t<p class=\"title\">").concat(item.title, "</p>\n\t\t\t\t\t<p class=\"description\">").concat(item.description, "</p>\n\t\t\t\t\t<p class=\"price\">\n\t\t\t\t\t\t<span> ").concat(item.price, "</span>\n\t\t\t\t\t\t<span>&euro;</span>\n\t\t\t\t\t</p>\n\t\t\t\t\t<p class=\"cart\" id=\"card\" onclick=\"recupere(").concat(item.id, ")\" value=\"").concat(item.id, "\">Ajouter au Panier <i class=\"fa-solid fa-plus\"></i></p>\n\t\t\t\t</div>\n\t\t\n\t\t\t");
       }
     } catch (err) {
       _didIteratorError = true;

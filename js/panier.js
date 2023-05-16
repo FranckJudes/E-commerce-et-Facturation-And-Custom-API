@@ -16,20 +16,19 @@ function recupere(idTemp)
             if(this.readyState == 4 && this.status == 200){
                 
                 let products = JSON.parse(this.responseText);
+                let produitEnregistrerProduit  = JSON.parse(localStorage.getItem("produit"));
 
+           
                products.forEach(element => {
-                    if (element.id === temp) {
+                    if (element.id === temp ) {
 
                     // function pop Up de Verification
 
                     const popupConfirmation = () =>
                     {
-                        if (window.confirm(`${element.title} a ete bien Ajouter dans votre Panier    
-                          Appuyer sur OK pour consulter le panier ou ANNULER pour rester a l'accueil
+                        if (window.confirm(`${element.title} a ete bien Ajouter dans votre Panier    Appuyer sur OK pour consulter le panier ou ANNULER pour rester a l'accueil
                         `)) {
                             window.location.href = "panier.html";
-                        }else{
-                           
                         }
                     }
                        
@@ -41,7 +40,7 @@ function recupere(idTemp)
 
                         if (produitEnregistrerDansLocalStorage)
                         {
-                            produitEnregistrerDansLocalStorage.push(element);
+                             produitEnregistrerDansLocalStorage.push(element);
 
                             localStorage.setItem("produit",JSON.stringify(produitEnregistrerDansLocalStorage))
                             popupConfirmation();
@@ -63,6 +62,7 @@ function recupere(idTemp)
                     }
                });
             }
-            
-        }
+            }
+        
 }
+

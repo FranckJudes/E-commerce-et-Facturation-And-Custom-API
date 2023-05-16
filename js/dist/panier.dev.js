@@ -10,13 +10,14 @@ function recupere(idTemp) {
   http2.onload = function () {
     if (this.readyState == 4 && this.status == 200) {
       var products = JSON.parse(this.responseText);
+      var produitEnregistrerProduit = JSON.parse(localStorage.getItem("produit"));
       products.forEach(function (element) {
         if (element.id === temp) {
           // function pop Up de Verification
           var popupConfirmation = function popupConfirmation() {
-            if (window.confirm("".concat(element.title, " a ete bien Ajouter dans votre Panier    \n                          Appuyer sur OK pour consulter le panier ou ANNULER pour rester a l'accueil\n                        "))) {
+            if (window.confirm("".concat(element.title, " a ete bien Ajouter dans votre Panier    Appuyer sur OK pour consulter le panier ou ANNULER pour rester a l'accueil\n                        "))) {
               window.location.href = "panier.html";
-            } else {}
+            }
           }; //    ---Stockage dans le LocalStorage
 
 
